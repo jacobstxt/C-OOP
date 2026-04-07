@@ -11,3 +11,25 @@ Bank::Bank(string accountNumber, string owner, double initialDeposit)
 	OwnerName = owner;
 	Balance = initialDeposit;
 }  
+
+void Bank::Deposit(double amount)
+{
+	cout << "Depositing $" << amount << " to account " << AccountNumber << endl;
+	Balance += amount;
+}
+
+void Bank::Withdraw(double amount)
+{
+	cout << "Withdrawing $" << amount << " from account " << AccountNumber << endl;
+	if (amount > Balance)
+		cout << "Insufficient funds." << endl;
+	else
+		Balance -= amount;
+}
+
+void Bank::ShowStatement()
+{
+	cout << "Account Number: " << AccountNumber << endl;
+	cout << "Owner Name: " << OwnerName << endl;
+	cout << "Balance: $" << Balance << endl;
+}
