@@ -44,8 +44,7 @@ double Sphere::getVolume() const
 void Sphere::displayStatistics() const
 {
 
-	cout << "\n=================================="
-		<< "\nSphere Statistics:\n"
+    cout<< "\nSphere Statistics:\n"
 		<< "Radius = " << getRadius() 
 		<< "\nDiameter = " << getDiameter() 
 		<< "\nCircumference = " << getCircumference() 
