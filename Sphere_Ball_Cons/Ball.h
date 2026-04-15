@@ -1,0 +1,20 @@
+#pragma once
+#include <string>
+#include "Sphere.h"
+
+
+using std::string;
+
+class Ball : public Sphere
+{
+public:
+	Ball();
+	Ball(double initialRadius, const string initialName);
+
+	void getName(string currentName) const; 
+	void setName(const string newName);
+	void resetBall(double newRadius, const string newName);
+	void displayStatistics() const;
+private:
+	string theName; 
+};
