@@ -1,12 +1,10 @@
-﻿#include <iostream>
-#include "Sphere.h"
+﻿#include "Sphere.h"
 #include "Bank.h"
-
-
-using namespace std;
+#include <iostream>
 
 int main()
 {
+    
 	/*Sphere unitSphere;
 	Sphere mySphere(5.0);
 	unitSphere.displayStatistics();
@@ -21,6 +19,5 @@ int main()
 	myBank.ShowStatement();
 
 
-
-	return 0;
 }
+

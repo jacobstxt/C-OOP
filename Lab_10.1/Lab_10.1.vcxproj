@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7e67dc04-506d-46ee-88e1-734f265fe7ac}</ProjectGuid>
-    <RootNamespace>SphereBallCons</RootNamespace>
+    <ProjectGuid>{7c2d6884-f2be-4fe7-b21d-8da583191864}</ProjectGuid>
+    <RootNamespace>Lab101</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,15 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ball.cpp" />
-    <ClCompile Include="SmallBall.cpp" />
-    <ClCompile Include="Sphere.cpp" />
-    <ClCompile Include="Sphere_Ball_Cons.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Ball.h" />
-    <ClInclude Include="SmallBall.h" />
-    <ClInclude Include="Sphere.h" />
+    <ClCompile Include="Lab_10.1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

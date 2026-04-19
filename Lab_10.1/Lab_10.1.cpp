@@ -6,7 +6,7 @@ using namespace std;
 class PoweredDevice
 {
 public:
-    PoweredDevice(int power) 
+    PoweredDevice(int power)
     {
         cout << " PoweredDevice: " << power << '\n';
     }
@@ -34,7 +34,7 @@ public:
 class Copier : public Scanner, public Printer
 {
 public:
-    Copier(int scanner, int printer, int power) : PoweredDevice(power), Scanner(scanner, power), Printer(printer, power)  {}
+    Copier(int scanner, int printer, int power) : PoweredDevice(power), Scanner(scanner, power), Printer(printer, power) {}
 };
 
 int main()

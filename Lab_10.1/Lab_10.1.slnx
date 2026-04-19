@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Sphere_Ball_Cons.vcxproj" Id="7e67dc04-506d-46ee-88e1-734f265fe7ac" />
+  <Project Path="Lab_10.1.vcxproj" />
 </Solution>

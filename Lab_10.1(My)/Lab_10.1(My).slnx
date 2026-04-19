@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Demo_Multiple_Inherit.vcxproj" />
+  <Project Path="Lab_10.1(My).vcxproj" />
 </Solution>

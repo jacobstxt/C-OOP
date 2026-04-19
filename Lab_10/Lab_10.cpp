@@ -4,12 +4,13 @@
 #include "Ball.h"
 #include "SmallBall.h"
 
+
 using namespace std;
 
 int main()
 {
-	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
 
 	cout << "\n=== Unit Sphere ===\n";
 	Sphere unitSphere;
@@ -41,4 +42,6 @@ int main()
 	cout << "\n=== Small Ball ===\n";
 	SmallBall mySmallBall(2.5, "My_SmallBall", 0.5);
 	mySmallBall.displayStatistics();
+
 }
+

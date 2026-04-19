@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7c3d2a0c-fa36-4d7f-90e6-77faa08f68ab}</ProjectGuid>
-    <RootNamespace>Sphere</RootNamespace>
+    <ProjectGuid>{b8b3cf76-f914-48c9-a798-4c5b8268222b}</ProjectGuid>
+    <RootNamespace>Lab101My</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Bank.cpp" />
-    <ClCompile Include="Sphere.cpp" />
-    <ClCompile Include="Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Bank.h" />
-    <ClInclude Include="Sphere.h" />
+    <ClCompile Include="Lab_10.1(My).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
