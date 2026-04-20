@@ -10,6 +10,7 @@ public:
 	void Deposit(double amount);
 	void Withdraw(double amount);
 	void ShowStatement();
+	~Bank();
 
 
 private:

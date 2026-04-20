@@ -33,3 +33,9 @@ void Bank::ShowStatement()
 	cout << "Owner Name: " << OwnerName << endl;
 	cout << "Balance: $" << Balance << endl;
 }
+
+
+Bank::~Bank() 
+{
+	cout << "Closing account " << AccountNumber << " owned by " << OwnerName << endl;
+}
