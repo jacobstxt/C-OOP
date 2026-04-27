@@ -7,7 +7,8 @@ private:
 
 public:
     SavingAccount(const string& ANumber, const string& AOwner,
-        double AInitialDeposit, double ARate);
+        double AInitialDeposit, double ARate);   
+    ~SavingAccount();
 
     void ApplyInterest();
 };

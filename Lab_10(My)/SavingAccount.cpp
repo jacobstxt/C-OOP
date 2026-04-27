@@ -8,6 +8,11 @@ SavingAccount::SavingAccount(const std::string& ANumber, const std::string& AOwn
     FInterestRate = ARate;
 }
 
+SavingAccount::~SavingAccount()
+{
+    std::cout << "bye bye SavingAccount (" << AccountNumber << ")" << std::endl;
+}
+
 void SavingAccount::ApplyInterest() {
     std::cout << "Interest applied" << std::endl;
     Deposit(getBalance() * (FInterestRate / 100.0));

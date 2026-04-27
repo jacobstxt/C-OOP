@@ -3,14 +3,22 @@
 
 using namespace std;
 
-Bank::Bank() : AccountNumber(""), OwnerName(""), Balance(0) {}
+Bank::Bank() : AccountNumber(""), OwnerName(""), Balance(0) {
+	cout << "create Bank (default ctor)" << endl;
+}
 
 Bank::Bank(string accountNumber, string owner, double initialDeposit)
 {
 	AccountNumber = accountNumber;
 	OwnerName = owner;
 	Balance = initialDeposit;
+	cout << "create Bank (" << AccountNumber << ")" << endl;
 }  
+
+Bank::~Bank()
+{
+	cout << "bye bye Bank (" << AccountNumber << ")" << endl;
+}
 
 void Bank::Deposit(double amount)
 {
