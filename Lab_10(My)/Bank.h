@@ -7,7 +7,7 @@ class Bank
 public:
 	Bank();
 	Bank(string AccountNumber, string Owner, double InitialDeposit);
-	~Bank();
+	virtual ~Bank();
 	void Deposit(double amount);
 	void Withdraw(double amount);
 	void ShowStatement();
