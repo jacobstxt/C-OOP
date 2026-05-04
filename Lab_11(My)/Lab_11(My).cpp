@@ -43,6 +43,7 @@ protected:
 };
 
 
+
 class GraduateStudent : public Student
 {
 public:
@@ -53,7 +54,7 @@ public:
         : Student(studentName, studentId), thesisTopic(topic)
     {
         cout << "GraduateStudent(string, int, string) — topic: "
-            << thesisTopic << endl;
+            << thesisTopic<< endl;
     }
 
     void info() const
@@ -64,7 +65,16 @@ public:
 
 private:
     string thesisTopic{ "not initialized" }; 
+	//int defautltvalue;
 };
+
+
+/*class Example {
+    int size;
+    int* data;
+public:
+    Example(int n) : data(new int[size]), size(n) {}
+};*/
 
 
 int main()
