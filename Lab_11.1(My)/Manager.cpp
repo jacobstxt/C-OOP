@@ -5,5 +5,8 @@ Manager::Manager(double salary, double b) : baseSalary(salary), bonus(b) {}
 
 double Manager::calcSalary() const       
 {
-    return baseSalary + bonus;  
+
+    int num;
+    num = 10;
+    return baseSalary;  
 }

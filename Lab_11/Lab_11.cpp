@@ -54,6 +54,14 @@ private:
 
 int main()
 {
-    DerivedContainer dc;
+    DerivedContainer dc; 
+
+    // BaseCpntainer 
+    //c1
+    //c2
+	//c3
+	//derivedcontainer
+
+    //BaseContainer bc;
 }
 
