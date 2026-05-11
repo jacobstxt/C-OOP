@@ -52,12 +52,14 @@ public:
 
 int main()
 {
-    CL1 a(1); // a – об’єкт класу CL1
-    a.print(); // одержимо 1
-    CL1::CL2 b(a, 2); // b – об’єкт класу CL2
-    b.print(); // одержимо 1 2
-    CL1::CL2::CL3 c(b, 3); // c – об’єкт класу CL3
-    c.print(); // одержимо 1 2 3
+    CL1 a(1); 
+    a.print(); 
+
+    CL1::CL2 b(a, 2); 
+    b.print();
+
+    CL1::CL2::CL3 c(b, 3); 
+    c.print();
 
 
     return 0;
