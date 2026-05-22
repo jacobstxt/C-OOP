@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MathClient.vcxproj" Id="1d484df1-e7a0-472a-9c91-937d124bb378" />
+</Solution>
